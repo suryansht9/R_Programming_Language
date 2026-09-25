@@ -1,0 +1,38 @@
+```r
+# R Program to perform Arithmetic Operations
+
+# Addition
+result1 <- 10 + 5
+print(result1)
+
+# Subtraction
+result2 <- 10 - 5
+print(result2)
+
+# Multiplication
+result3 <- 10 * 5
+print(result3)
+
+# Division
+result4 <- 10 / 5
+print(result4)
+
+# Modulus (Remainder)
+result5 <- 10 %% 3
+print(result5)
+
+# Power
+result6 <- 10 ^ 2
+print(result6)
+```
+
+### Output
+
+```text
+[1] 15
+[1] 5
+[1] 50
+[1] 2
+[1] 1
+[1] 100
+```
