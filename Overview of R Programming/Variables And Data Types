@@ -1,0 +1,19 @@
+# Variables and Data Types
+
+a <- 10
+b <- 10L
+name <- "Suryansh"
+flag <- TRUE
+c <- 2 + 3i
+
+print(a)
+print(b)
+print(name)
+print(flag)
+print(c)
+
+print(typeof(a))
+print(typeof(b))
+print(typeof(name))
+print(typeof(flag))
+print(typeof(c))
