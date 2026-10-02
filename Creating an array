@@ -1,0 +1,8 @@
+# Create array
+a <- array(
+  1:6,
+  dim = c(2, 3)
+)
+
+# Display array
+print(a)
