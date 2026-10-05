@@ -2,7 +2,7 @@
 # R Program to perform Arithmetic Operations
 
 # Addition
-result1 <- 10 + 5
+result1 <- 10 + 
 print(result1)
 
 # Subtraction
