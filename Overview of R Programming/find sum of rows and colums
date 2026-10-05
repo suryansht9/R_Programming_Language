@@ -2,7 +2,7 @@
 
 A <- matrix(
   1:9,
-  nrow = 3,
+  nrow = 
   byrow = TRUE
 )
 
