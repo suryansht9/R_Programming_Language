@@ -5,4 +5,4 @@ result <- factor(
 )
 
 print(result)
-print(result[1] > result[2]
+print(result[1] > result[2])
