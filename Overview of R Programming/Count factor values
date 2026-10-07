@@ -1,0 +1,6 @@
+color <- factor(
+  c("Red", "Blue", "Red",
+    "Green", "Blue", "Red")
+)
+
+print(table(color))
