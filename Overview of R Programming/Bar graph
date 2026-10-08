@@ -1,0 +1,12 @@
+# Program to create a Bar Graph
+
+subjects <- c("R", "Python", "Java", "C++")
+marks <- c(80, 90, 75, 85)
+
+barplot(
+  marks,
+  names.arg = subjects,
+  main = "Student Marks",
+  xlab = "Subjects",
+  ylab = "Marks"
+)
