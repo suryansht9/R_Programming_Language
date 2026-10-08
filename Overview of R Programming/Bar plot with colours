@@ -1,0 +1,12 @@
+# Bar Graph with Colors
+
+marks <- c(80, 90, 75, 85)
+
+barplot(
+  marks,
+  names.arg = c("R", "Python", "Java", "C++"),
+  main = "Marks of Student",
+  xlab = "Subjects",
+  ylab = "Marks",
+  col = "blue"
+)
