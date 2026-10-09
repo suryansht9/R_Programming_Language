@@ -1,0 +1,8 @@
+A <- matrix(
+  1:6,
+  nrow = 2,
+  byrow = TRUE
+)
+
+print(A)
+print(t(A))
