@@ -1,0 +1,8 @@
+
+subjects <- c("R", "Python", "Java", "C++")
+marks <- c(80, 90, 75, 85)
+
+pie(marks,
+    labels = subjects,
+    main = "Marks Distribution",
+    col = rainbow(4))
