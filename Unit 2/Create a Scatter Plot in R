@@ -1,0 +1,10 @@
+
+hours <- c(1, 2, 3, 4, 5)
+marks <- c(35, 45, 55, 70, 85)
+
+plot(hours, marks,
+     main = "Hours Studied vs Marks",
+     xlab = "Hours Studied",
+     ylab = "Marks",
+     pch = 19,
+     col = "blue")
