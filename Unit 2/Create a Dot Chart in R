@@ -1,0 +1,9 @@
+
+marks <- c(80, 90, 75, 85)
+
+names(marks) <- c("R", "Python", "Java", "C++")
+
+dotchart(marks,
+         main = "Student Marks",
+         xlab = "Marks",
+         color = "blue")
