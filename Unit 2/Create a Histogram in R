@@ -1,0 +1,10 @@
+
+marks <- c(25, 35, 40, 45, 50, 55,
+           60, 65, 70, 75, 80, 85, 90)
+
+hist(marks,
+     main = "Distribution of Marks",
+     xlab = "Marks",
+     ylab = "Frequency",
+     col = "lightblue",
+     breaks = 5)
