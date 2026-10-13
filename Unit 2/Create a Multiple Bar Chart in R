@@ -1,0 +1,15 @@
+
+marks <- matrix(c(70, 80, 90, 75, 85, 95),
+                nrow = 2,
+                byrow = TRUE)
+
+colnames(marks) <- c("R", "Python", "Java")
+rownames(marks) <- c("Class A", "Class B")
+
+barplot(marks,
+        beside = TRUE,
+        main = "Class-wise Marks",
+        xlab = "Subjects",
+        ylab = "Marks",
+        col = c("blue", "green"),
+        legend.text = TRUE)
