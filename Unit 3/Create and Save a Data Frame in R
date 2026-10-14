@@ -1,0 +1,12 @@
+
+students <- data.frame(
+  Name = c("Aman", "Riya", "Rahul"),
+  Age = c(20, 21, 19),
+  Marks = c(80, 90, 75)
+)
+
+print(students)
+
+write.csv(students,
+          "students_output.csv",
+          row.names = FALSE)
