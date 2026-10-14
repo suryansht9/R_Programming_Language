@@ -1,0 +1,9 @@
+
+data <- data.frame(
+  Maths = c(70, 80, 90, 60, 85),
+  Science = c(75, 85, 95, 65, 80),
+  English = c(80, 75, 85, 70, 90)
+)
+
+pairs(data,
+      main = "Scatter Plot Matrix")
