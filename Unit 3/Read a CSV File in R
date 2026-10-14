@@ -1,0 +1,6 @@
+
+data <- read.csv("students.csv")
+
+print(data)
+head(data)
+summary(data)
