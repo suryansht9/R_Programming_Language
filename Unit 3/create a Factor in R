@@ -1,0 +1,7 @@
+
+gender <- factor(c("Male", "Female", "Male",
+                   "Female", "Male"))
+
+print(gender)
+print(levels(gender))
+print(table(gender))
