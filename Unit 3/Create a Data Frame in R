@@ -1,0 +1,8 @@
+
+students <- data.frame(
+  RollNo = c(1, 2, 3, 4),
+  Name = c("Aman", "Riya", "Rahul", "Priya"),
+  Marks = c(80, 90, 75, 85)
+)
+
+print(students)
