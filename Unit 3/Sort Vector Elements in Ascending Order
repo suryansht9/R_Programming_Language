@@ -1,0 +1,6 @@
+
+numbers <- c(50, 20, 40, 10, 30)
+
+sorted_numbers <- sort(numbers)
+
+print(sorted_numbers)
