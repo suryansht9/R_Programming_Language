@@ -1,0 +1,6 @@
+
+marks <- c(75, 90, 65, 85, 80)
+
+result <- sort(marks, decreasing = TRUE)
+
+print(result)
