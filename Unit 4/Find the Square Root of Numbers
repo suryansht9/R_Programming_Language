@@ -1,0 +1,6 @@
+
+numbers <- c(16, 25, 36, 49, 64)
+
+result <- sqrt(numbers)
+
+print(result)
