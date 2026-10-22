@@ -1,0 +1,8 @@
+
+marks <- c(75, 80, 85, 90, 70)
+
+total <- sum(marks)
+percentage <- (total / 500) * 100
+
+print(paste("Total Marks:", total))
+print(paste("Percentage:", percentage, "%"))
