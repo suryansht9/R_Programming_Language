@@ -1,0 +1,12 @@
+
+students <- data.frame(
+  Name = c("Aman", "Riya", "Rahul", "Priya"),
+  Marks = c(70, 85, 65, 95)
+)
+
+barplot(students$Marks,
+        names.arg = students$Name,
+        main = "Student Performance",
+        xlab = "Students",
+        ylab = "Marks",
+        col = "skyblue")
