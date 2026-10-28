@@ -1,0 +1,13 @@
+
+students <- data.frame(
+  Name = c("Aman", "Riya", "Rahul"),
+  Marks = c(80, 90, 75)
+)
+
+save(students, file = "students.RData")
+
+rm(students)
+
+load("students.RData")
+
+print(students)
