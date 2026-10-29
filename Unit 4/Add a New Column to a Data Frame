@@ -1,0 +1,10 @@
+
+students <- data.frame(
+  Name = c("Aman", "Riya", "Rahul"),
+  Marks = c(80, 90, 75)
+)
+
+students$Result <- ifelse(students$Marks >= 40,
+                          "Pass", "Fail")
+
+print(students)
