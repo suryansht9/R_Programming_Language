@@ -1,0 +1,9 @@
+
+students <- data.frame(
+  Name = c("Aman", "Riya", "Rahul", "Priya"),
+  Marks = c(65, 90, 75, 95)
+)
+
+result <- students[students$Marks > 80, ]
+
+print(result)
