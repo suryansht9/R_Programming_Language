@@ -1,0 +1,7 @@
+
+first <- "Hello"
+second <- "World"
+
+result <- paste(first, second)
+
+print(result)
