@@ -1,0 +1,10 @@
+
+student <- list(
+  name = "Aman",
+  age = 20,
+  marks = c(80, 85, 90)
+)
+
+print(student)
+print(student$name)
+print(student$marks)
