@@ -1,0 +1,6 @@
+
+text <- "I am learning R programming"
+
+result <- grepl("R", text)
+
+print(result)
