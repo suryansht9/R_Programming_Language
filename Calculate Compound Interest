@@ -1,0 +1,9 @@
+
+p <- 10000
+r <- 5
+t <- 2
+
+amount <- p * (1 + r / 100)^t
+ci <- amount - p
+
+print(paste("Compound Interest:", ci))
