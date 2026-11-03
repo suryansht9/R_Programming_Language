@@ -1,0 +1,8 @@
+
+marks <- c(80, 90, NA, 70, NA, 85)
+
+print(is.na(marks))
+
+marks[is.na(marks)] <- 0
+
+print(marks)
