@@ -1,0 +1,11 @@
+
+numbers <- c(10, 25, 40, 30, 40, 15)
+
+unique_numbers <- sort(unique(numbers),
+                       decreasing = TRUE)
+
+if (length(unique_numbers) >= 2) {
+  print(unique_numbers[2])
+} else {
+  print("Second largest number does not exist")
+}
