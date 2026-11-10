@@ -1,0 +1,8 @@
+
+numbers <- c(10, 15, 20, 25, 30, 35)
+
+even_count <- sum(numbers %% 2 == 0)
+odd_count <- sum(numbers %% 2 != 0)
+
+print(paste("Even numbers:", even_count))
+print(paste("Odd numbers:", odd_count))
